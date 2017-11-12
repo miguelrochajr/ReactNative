@@ -10,6 +10,6 @@ const App = () => (
 );
 
 // Render it to the device
-AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent('albums', () => App); // The AppRegistry is only used at the root App.js
 
 export default App;
