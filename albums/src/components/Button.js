@@ -1,13 +1,15 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-const Button = () => {
+// this whenPressed is the same as the one on AlbumDetail.js
+const Button = ({ whenPressed, children }) => {
   const { buttonStyle, textStyle } = styles;
 
   return (
-    <TouchableOpacity style={buttonStyle}>
+    //When TouchableOpacity is pressed, it runs the function from the prop
+    <TouchableOpacity onPress={whenPressed} style={buttonStyle}>
       <Text style={textStyle}>
-        Cick me!!
+        {children}
       </Text>
     </TouchableOpacity>
   );
