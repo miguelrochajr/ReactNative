@@ -6,9 +6,11 @@ import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header'; // If it is a .js file, no need to put .js
 import AlbumList from './src/components/AlbumList';
 import Card from './src/components/Card';
+
 // Create a component
 const App = () => (
-  <View>
+  //Flex 1 menas: "pleas expand this component to fill the entire area of the device "
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'}/>
     <AlbumList />
   </View>
