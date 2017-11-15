@@ -2,6 +2,7 @@ export * from './Button';
 export * from './Card';
 export * from './CardSection';
 export * from './Header';
+export * from './Input';
 
 /*
   This index file is the one which gathres all the commmon components.
