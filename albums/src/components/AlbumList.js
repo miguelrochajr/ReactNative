@@ -24,7 +24,6 @@ class AlbumList extends Component {
     return (
       <View>
         {this.renderAlbums()}
-        
       </View>
     );
   }
